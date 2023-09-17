@@ -1,0 +1,104 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color:#faecde;
+    font-size: 1.5rem;
+    font-family: 'Signika Negative', sans-serif;
+}
+body
+{
+    background-color:#B9B4C7 ;
+}
+.container
+{
+    padding: 20px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: c;
+    width: 70%;
+    max-width: 540px;
+    margin: auto;
+    margin-top: 30px;
+    background-color:#352F44;
+    border-radius: 13px;
+}
+.field-of-pas
+{
+    color:#352F44;
+    border: none;
+    outline: none;
+    height: 40px;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+.length{
+    margin: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.length>input{
+   color:#352F44;
+    width: 10%;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+.digits
+{   
+    margin: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.digits>input
+{
+    width: 20px;
+}
+.char
+{
+    margin: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.char>input
+{
+    width: 20px;
+}
+.special
+{
+    margin: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.special>input
+{
+    width: 20px;
+}
+input[type="checkbox"]
+{
+    cursor: pointer;
+}
+hr{
+    border: 1px solid rgb(0, 0, 0);;
+}
+.submit
+{
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+}
+.submit>input{
+    margin-top: 5px;
+    background-color: #5C5470;
+    border: none;
+   padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 17.5px;
+}
+.error
+{
+    color: red;
+}
